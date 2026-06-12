@@ -13,7 +13,7 @@ from reportlab.platypus import (
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
-from models import Invoice
+from .models import Invoice
 
 ACCENT = colors.HexColor("#185FA5")
 INK = colors.HexColor("#1A1F29")
